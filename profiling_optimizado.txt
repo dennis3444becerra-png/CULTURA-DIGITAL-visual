@@ -1,0 +1,9 @@
+         128757 function calls in 0.058 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     9999    0.024    0.000    0.044    0.000 {built-in method builtins.all}
+   118756    0.021    0.000    0.021    0.000 c:\Users\BECERRA GAVIDIA\Desktop\CULTURA DIGITAL visual\autonomo_4_D\analislis.py:23(<genexpr>)
+        1    0.014    0.014    0.058    0.058 c:\Users\BECERRA GAVIDIA\Desktop\CULTURA DIGITAL visual\autonomo_4_D\analislis.py:20(encontrar_primos_optimizado)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
