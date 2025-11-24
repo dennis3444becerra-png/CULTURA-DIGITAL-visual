@@ -28,5 +28,5 @@ En el codigo original tenemos el tiempo de ejecucion: 0.72298
 En el codigo optimizado el tiempo de ejecucion: 0.2073
 En el codigo de Numpy el tiempo de ejecucion: 0.000328
 
-# COMCLUSION
+# CONCLUSION
 Se pudo verificar que al momento de realizar una optimizacion se mejora la aceleracion y reducion de los tiempos de ejecucion y eliminacion de los calculos que no son necesarios con grandes cantidades, ademas con la implementacion de NumPy se pudo realizar el calculo de numeros primos con mas eficiencia y el analisis con cProfile nos permitio identificar las funciones mas costosas pudiendo obtener un codigo mas limpio, facil para ser analizado. 
