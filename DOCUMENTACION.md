@@ -23,10 +23,15 @@ Reducción notable del tiempo de ejecución.
 Aprovechamiento de estructuras vectorizadas altamente eficientes.
 
 # RESULTADOS
-una vez realizado el analisis y ejecucion pudimos ver que los tiempos con time.perf_counter() y el analissi con cProfile se pudo obtener los siguientes resultados:
-En el codigo original tenemos el tiempo de ejecucion: 0.72298
-En el codigo optimizado el tiempo de ejecucion: 0.2073
-En el codigo de Numpy el tiempo de ejecucion: 0.000328
+Una vez realizado el análisis y la ejecución de las diferentes versiones del programa, pudimos observar de manera clara cómo varían los tiempos de procesamiento al aplicar técnicas de optimización. Utilizando time.perf_counter() para una medición precisa y complementando el estudio con el análisis detallado que ofrece cProfile, se obtuvieron los siguientes resultados concretos:
+
+En el código original, el tiempo de ejecución registrado fue de 0.72298, lo cual evidencia una demora considerable debido a la estructura inicial del algoritmo y la falta de optimizaciones.
+
+En el código optimizado, el tiempo de ejecución se redujo significativamente a 0.2073, demostrando que las mejoras implementadas permitieron una disminución notable en el consumo de tiempo y recursos.
+
+En la versión desarrollada con NumPy, el tiempo de ejecución fue de apenas 0.000328, mostrando un rendimiento excepcional gracias al procesamiento vectorizado que ofrece esta librería.
 
 # CONCLUSION
-Se pudo verificar que al momento de realizar una optimizacion se mejora la aceleracion y reducion de los tiempos de ejecucion y eliminacion de los calculos que no son necesarios con grandes cantidades, ademas con la implementacion de NumPy se pudo realizar el calculo de numeros primos con mas eficiencia y el analisis con cProfile nos permitio identificar las funciones mas costosas pudiendo obtener un codigo mas limpio, facil para ser analizado. 
+Se pudo verificar que, al momento de realizar una optimización, se logra una mejora significativa en la aceleración del programa, así como una reducción notable en los tiempos de ejecución. Esto se debe principalmente a la eliminación de cálculos innecesarios y a la reorganización del código para hacerlo más eficiente cuando se trabaja con grandes cantidades de datos. Además, con la implementación de NumPy, fue posible realizar el cálculo de números primos con una eficiencia mucho mayor, aprovechando el procesamiento vectorizado que ofrece la librería.
+
+El análisis realizado con cProfile permitió identificar con claridad cuáles eran las funciones más costosas en términos de rendimiento, lo que facilitó enfocar las mejoras en los puntos críticos del programa. Gracias a esto, se obtuvo un código más limpio, mejor estructurado y más fácil de analizar y mantener. En conjunto, todo el proceso demostró la importancia de optimizar y perfilar el código para obtener resultados rápidos, precisos y sostenibles en proyectos más grandes
